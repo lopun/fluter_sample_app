@@ -1,0 +1,61 @@
+name: flutter_sample_app
+description: Flutter Sample App
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  english_words: ^4.0.0
+  intl: ^0.17.0
+  provider: ^5.0.0
+  shrine_images: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.11.0
+
+flutter:
+  fonts:
+    - family: BMEULJIRO
+      fonts:
+        - asset: fonts/BMEULJIRO.otf
+    - family: BMDOHYEON
+      fonts:
+        - asset: fonts/BMDOHYEON_otf.otf
+    - family: BMEuljiro10yearslater
+      fonts:
+        - asset: fonts/BMEuljiro10yearslaterOTF.otf
+    - family: BMHANNA
+      fonts:
+        - asset: fonts/BMHANNAAir_otf.otf
+          weight: 300
+        - asset: fonts/BMHANNAProOTF.otf
+          weight: 700
+    - family: BMHANNA_11yrs
+      fonts:
+        - asset: fonts/BMHANNA_11yrs_otf.otf
+    - family: BMJUA
+      fonts:
+        - asset: fonts/BMJUA_otf.otf
+    - family: NotoSansKR-Black
+      fonts:
+        - asset: fonts/NotoSansKR-Black.otf
+    - family: NotoSansKR
+      fonts:
+        - asset: fonts/NotoSansKR-Bold.otf
+          weight: 700
+        - asset: fonts/NotoSansKR-Medium.otf
+          weight: 500
+        - asset: fonts/NotoSansKR-Regular.otf
+          weight: 400
+        - asset: fonts/NotoSansKR-Light.otf
+          weight: 300
+        - asset: fonts/NotoSansKR-Thin.otf
+          weight: 100
