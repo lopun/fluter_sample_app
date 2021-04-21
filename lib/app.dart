@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_sample_app/routes/first_screen.dart';
+import 'package:flutter_sample_app/routes/second_screen.dart';
 import 'StoreHomePage.dart';
 
 class CupertinoStoreApp extends StatelessWidget {
@@ -10,7 +12,11 @@ class CupertinoStoreApp extends StatelessWidget {
 
     return CupertinoApp(
       theme: const CupertinoThemeData(brightness: Brightness.light),
-      home: StoreHomePage(),
+      routes: {
+        '/': (_) => FirstScreen(),
+        '/second': (_) => SecondScreen(),
+      },
+      initialRoute: '/',
     );
   }
 }
